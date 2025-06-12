@@ -209,7 +209,7 @@ const Navbar = () => {
               <ul className="flex flex-col space-y-8 text-center">
                 {[
                   { id: "home", label: "Home", href: "/" },
-                  { id: "services", label: "Services", href: "/#services" },
+                  { id: "services", label: "Services", href: "/services" },
                   { id: "contact", label: "Contact", href: "/contact" }
                 ].map((item, index) => (
                   <motion.li
